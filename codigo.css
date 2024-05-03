@@ -252,7 +252,7 @@ a:hover {
 }
 
 body {
-    background-image: url(Imag/FondoPortfolio.jpg)
+    background-image: url(Imag/FondoPortfolio.jpg);
     background-size: cover;
     background-position: center;
 }
