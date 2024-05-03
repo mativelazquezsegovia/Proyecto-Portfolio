@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-barra {
+    position: sticky;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    z-index: 1;
+    font-weight: bolder;
+    margin-right: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-barra:hover {
+    background: rgba(77, 199, 148, 0.5);
+}
+
+nav {
+    background: rgb(1, 31, 87);
+    padding: 10px;
+    text-align: right;
+}
+
+nav h1 {
+    margin: 0;
+    float: left;
+    color: #fff;
+}
+
+
+.yo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.yo-img {
+    height: 15%;
+    width: 20%;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    color: #fff;
+    box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+    color: #fff;
+    margin-bottom: var(--bottom-margin);
+
+}
+
+.textoBio {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+}
+
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 7rem;
+    color: #fff;
+}
+
+.misskills {
+    margin-bottom: 1rem;
+}
+
+.contenedorskilss img {
+    padding: 1.25rem;
+}
+
+.imagenesSkills {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+}
+
+
+.proyectos {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 7rem;
+}
+
+.proyectoImagenes {
+    width: 65%;
+    height: 60%;
+    border-radius: 11px;
+}
+
+.contenedorProyectos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-de-proyectos {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+.tituloproyectos {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.contenedor-de-proyectos {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+
+.contenedor-de-proyecto p {
+    padding: 0.4rem;
+}
+
+a {
+    color: rgb(211, 231, 29);
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgb(12, 12, 12);
+}
+
+
+.detalles-proyecto {
+    margin-bottom: var(--bottom-margin);
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.tarjeta-de-proyecto {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.redes {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.titulo-Redes {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+.contenedorRedes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorRedes img {
+    padding: 1.25rem;
+}
+
+.redesImagenes {
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    object-fit: cover;
+    border: 0;
+}
+
+
+.titulo-Contacto {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+.contenedor-de-contacto div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+
+}
+
+.contenedor-de-contacto input {
+    flex: 1;
+    max-width: 200px;
+    color: #fff;
+    background-color: rgb(33, 123, 207);
+}
+
+.contenedor-de-contacto label {
+    text-align: right;
+    margin-right: 0.5rem;
+    width: 100px;
+    color: #fff;
+
+}
+
+.contenedor-de-contacto button {
+    margin: 0 auto;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(140, 142, 145);
+}
+
+.contenedor-de-contacto button:hover {
+    background-color: rgb(7, 7, 7);
+}
+
+body {
+    background-image: url('file:///C:/Users/Mati/Desktop/Fondo%20Portfolio.jpg');
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi web </title>
+    <link rel="stylesheet" href="codigo.css">
+    <script src="funciones.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <h1>Matias Velazquez Segovia | Desarollador</h1>
+        <a href="#Aboutme" class="nav-barra">About me</a>
+        <a href="#Skills" class="nav-barra">Skills</a>
+        <a href="#Proyectos" class="nav-barra">Proyectos</a>
+        <a href="#Contacto" class="nav-barra">Contacto</a>
+    </nav>
+
+    <section class="yo" id="Aboutme">
+        <img src="file:///C:/Users/Mati/Desktop/Mati/Mati/Foto%20linkedin.jpg" alt="Matias Velazquez Segovia"
+            class="yo-img" />
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="titulo">About me</h2>
+            <p class="textoBio">
+                Comenze la tecnicatura en Agosto del 2022, me encuentro cursando mi cuarto cuatrimestre.
+                Me quedan 8 materias para poder lograr esta meta que jamas hubiese imaginado.
+                Soy un amante de los animales, tengo 5 hijos perrunos, me encanta viajar y realizar trekkings.
+            </p>
+        </div>
+    </section>
+
+    <section class="skills" id="Skills">
+        <h2 class="misSkills">Mis skills</h2>
+        <div class="contenedorSkills">
+            <div class="first-set animate__animated animate__pulse">
+                <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD4rstsLzUrHX2D9_-7PDwCKYGid5JWeOehQ_geDAYiw&s "
+                    alt="c++" class="imagenesSkills" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSSEyQ1xTcceMqyt05GaYIcqIXDMbk8HBXRh3Ksx6X0Q&s "
+                    alt="c#" class=" icon imagenesSkills" />
+                <img src="https://logowik.com/content/uploads/images/azure-sql-database6354.jpg" alt="Sql"
+                    class="imagenesSkills" />
+            </div>
+        </div>
+    </section>
+
+    <section class="Proyectos" id="Proyectos">
+        <h2 class="titulo-de-proyectos">Mis Proyectos</h2>
+        <div class="contenedorProyectos">
+            <div class="contenedor-de-proyectos tarjeta-de-proyectos">
+                <img src="file:///C:/Users/Mati/Desktop/ProyectoLaboII.jpg"
+                    alt="Sistema de Gestion de Electrodomesticos" class="proyectoImagenes" />
+                <h3 class="tituloproyectos">Venta de Electrodomesticos</h3>
+                <p class="detalles-proyecto">
+                    Sistema de Gestion realizado para Laboratorio II, el mismo se encarga de gestionar la Venta de
+                    Electrodomesticos, permite cargar clientes, productos, chequear la venta completa y otorga factura
+                    de la venta.
+                </p>
+                <a href="https://github.com/mativelazquezsegovia/Sistema-de-Gestion-Electrodomesticos"
+                    target="_blank">Check it Out</a>
+            </div>
+            <div class="contenedor-de-proyectos tarjeta-de-proyectos ">
+                <img src="file:///C:/Users/Mati/Desktop/ProyectoPrograIII.jpg" alt="Proyecto Winforms"
+                    class="proyectoImagenes" />
+                <h3 class="tituloproyectos">Windforms Web</h3>
+                <p class="detalles-proyecto">
+                    Proyecto de Winforms para Programacion III, el mismo se encarga de mostrar los
+                    articulos,agregar,modificar y eliminar en caso de ser necesario.
+                </p>
+                <a href="https://github.com/FlorVarangot/TP2_WinForm_C2" target="_blank">Check it Out</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="Redes" id="Redes">
+        <h2 class="titulo-Redes">Mis Redes</h2>
+        <div class="contenedorRedes">
+            <div class="contenedor-de-redes tarjeta-de-redes">
+                <a href="https://www.instagram.com/mati.velazquez/" target="_blank">
+                    <img src="https://neozink.com/resources/blog/Instagram-IG-Logo.jpg" alt="Instagram"
+                        class="redesImagenes" />
+                </a>
+                <a href="https://www.linkedin.com/in/matias-velazquez-segovia-887508250/" target="_blank">
+                    <img src="https://img.freepik.com/vector-premium/icono-linkedin-estilo-corte-papel-iconos-redes-sociales_505135-239.jpg"
+                        alt="Linkedin" class="redesImagenes" />
+                </a>
+                <a href="https://github.com/mativelazquezsegovia" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
+                        alt="Github" class="redesImagenes" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contacto" id="Contacto">
+        <h2 class="titulo-Contacto">Contacto</h2>
+        <div class="contenedor-de-contacto tarjeta-de-contacto">
+            <div>
+                <label for="">Nombre</label>
+                <input type="text" id="txtNombre">
+            </div>
+            <div>
+                <label for="">Apellido</label>
+                <input type="text" id="txtApellido">
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="text" id="txtEmail">
+            </div>
+            <div>
+                <label for="">Mensaje</label>
+                <input type="text" id="txtMensaje">
+            </div>
+            <div>
+                <button onclick="enviar()">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
