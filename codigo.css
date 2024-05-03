@@ -252,7 +252,7 @@ a:hover {
 }
 
 body {
-    background-image: url('https://github.com/mativelazquezsegovia/Proyecto-Portfolio/blob/main/Imag/Fondo%20Portfolio.jpg?raw=true');
+    background-image: url(Imag/FondoPortfolio.jpg)
     background-size: cover;
     background-position: center;
 }
